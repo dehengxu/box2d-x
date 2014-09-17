@@ -3,12 +3,16 @@
 remote=$1
 tagname=$2
 
-if [ $# < 2 ]
+if [ -z $remote ]
 then
-echo "参数太少"
-exit 0
+  echo "Please input remote"
+  exit 0
+elif [ -z $tagname ]
+then
+  echo "Please input tagname"
+  exit 0
 fi
 
 git add --all
 git commit -m "update commit"
-git push $1 master && git tag -f $2 && git push -f $1 $2
+git push $remote master && git tag -f $tagname && git push -f $remote $tagname
