@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 remote=$1
 tagname=$2
 
