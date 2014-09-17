@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "src/Box2D/*.{h,cpp}", "src/Box2D/Collision/*.{h,cpp}", "src/Box2D/Collision/Shapes/*.{h,cpp}", "src/Box2D/Common/*.{h,cpp}", "src/Box2D/Dynamics/Contacts/*.{h,cpp}", "src/Box2D/Dynamics/Joints/*.{h,cpp}", "src/Box2D/Rope/*.{h,cpp}"
+  s.source_files  = "src/Box2D/*.{h,cpp}", "src/Box2D/Collision/*.{h,cpp}", "src/Box2D/Collision/Shapes/*.{h,cpp}", "src/Box2D/Common/*.{h,cpp}", "src/Box2D/Dynamics/*.{h,cpp}", "src/Box2D/Dynamics/Contacts/*.{h,cpp}", "src/Box2D/Dynamics/Joints/*.{h,cpp}", "src/Box2D/Rope/*.{h,cpp}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
