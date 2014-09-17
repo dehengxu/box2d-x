@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   s.source_files  = "src/Box2D/*.{h,cpp}", "src/Box2D/Collision/*.{h,cpp}", "src/Box2D/Collision/Shapes/*.{h,cpp}", "src/Box2D/Common/*.{h,cpp}", "src/Box2D/Dynamics/*.{h,cpp}", "src/Box2D/Dynamics/Contacts/*.{h,cpp}", "src/Box2D/Dynamics/Joints/*.{h,cpp}", "src/Box2D/Rope/*.{h,cpp}"
   s.exclude_files = "Classes/Exclude"
 
-  # s.public_header_files = "Classes/**/*.h"
+  s.public_header_files = "src/Box2D/*.{h}", "src/Box2D/Collision/*.{h}", "src/Box2D/Collision/Shapes/*.{h}", "src/Box2D/Common/*.{h}", "src/Box2D/Dynamics/*.{h}", "src/Box2D/Dynamics/Contacts/*.{h}", "src/Box2D/Dynamics/Joints/*.{h}", "src/Box2D/Rope/*.{h}"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
