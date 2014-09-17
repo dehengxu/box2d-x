@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24132B5F19C969A5009FB1D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24132B5E19C969A5009FB1D3 /* Foundation.framework */; };
+		24132B6419C969A5009FB1D3 /* Box2d_x.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24132B6319C969A5009FB1D3 /* Box2d_x.h */; };
+		24132B6619C969A5009FB1D3 /* Box2d_x.m in Sources */ = {isa = PBXBuildFile; fileRef = 24132B6519C969A5009FB1D3 /* Box2d_x.m */; };
+		24132B6D19C969A5009FB1D3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24132B6C19C969A5009FB1D3 /* XCTest.framework */; };
+		24132B6E19C969A5009FB1D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24132B5E19C969A5009FB1D3 /* Foundation.framework */; };
+		24132B7019C969A5009FB1D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24132B6F19C969A5009FB1D3 /* UIKit.framework */; };
+		24132B7319C969A5009FB1D3 /* libBox2d-x.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24132B5B19C969A5009FB1D3 /* libBox2d-x.a */; };
+		24132B7919C969A5009FB1D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24132B7719C969A5009FB1D3 /* InfoPlist.strings */; };
+		24132B7B19C969A5009FB1D3 /* Box2d_xTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24132B7A19C969A5009FB1D3 /* Box2d_xTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24132B7119C969A5009FB1D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24132B5319C969A5009FB1D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24132B5A19C969A5009FB1D3;
+			remoteInfo = "Box2d-x";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		24132B5919C969A5009FB1D3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				24132B6419C969A5009FB1D3 /* Box2d_x.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		24132B5B19C969A5009FB1D3 /* libBox2d-x.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libBox2d-x.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24132B5E19C969A5009FB1D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		24132B6219C969A5009FB1D3 /* Box2d-x-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Box2d-x-Prefix.pch"; sourceTree = "<group>"; };
+		24132B6319C969A5009FB1D3 /* Box2d_x.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Box2d_x.h; sourceTree = "<group>"; };
+		24132B6519C969A5009FB1D3 /* Box2d_x.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Box2d_x.m; sourceTree = "<group>"; };
+		24132B6B19C969A5009FB1D3 /* Box2d-xTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Box2d-xTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24132B6C19C969A5009FB1D3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		24132B6F19C969A5009FB1D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		24132B7619C969A5009FB1D3 /* Box2d-xTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Box2d-xTests-Info.plist"; sourceTree = "<group>"; };
+		24132B7819C969A5009FB1D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		24132B7A19C969A5009FB1D3 /* Box2d_xTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Box2d_xTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24132B5819C969A5009FB1D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24132B5F19C969A5009FB1D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24132B6819C969A5009FB1D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24132B6D19C969A5009FB1D3 /* XCTest.framework in Frameworks */,
+				24132B7019C969A5009FB1D3 /* UIKit.framework in Frameworks */,
+				24132B7319C969A5009FB1D3 /* libBox2d-x.a in Frameworks */,
+				24132B6E19C969A5009FB1D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24132B5219C969A5009FB1D3 = {
+			isa = PBXGroup;
+			children = (
+				24132B6019C969A5009FB1D3 /* Box2d-x */,
+				24132B7419C969A5009FB1D3 /* Box2d-xTests */,
+				24132B5D19C969A5009FB1D3 /* Frameworks */,
+				24132B5C19C969A5009FB1D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24132B5C19C969A5009FB1D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24132B5B19C969A5009FB1D3 /* libBox2d-x.a */,
+				24132B6B19C969A5009FB1D3 /* Box2d-xTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24132B5D19C969A5009FB1D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24132B5E19C969A5009FB1D3 /* Foundation.framework */,
+				24132B6C19C969A5009FB1D3 /* XCTest.framework */,
+				24132B6F19C969A5009FB1D3 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24132B6019C969A5009FB1D3 /* Box2d-x */ = {
+			isa = PBXGroup;
+			children = (
+				24132B6319C969A5009FB1D3 /* Box2d_x.h */,
+				24132B6519C969A5009FB1D3 /* Box2d_x.m */,
+				24132B6119C969A5009FB1D3 /* Supporting Files */,
+			);
+			path = "Box2d-x";
+			sourceTree = "<group>";
+		};
+		24132B6119C969A5009FB1D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24132B6219C969A5009FB1D3 /* Box2d-x-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24132B7419C969A5009FB1D3 /* Box2d-xTests */ = {
+			isa = PBXGroup;
+			children = (
+				24132B7A19C969A5009FB1D3 /* Box2d_xTests.m */,
+				24132B7519C969A5009FB1D3 /* Supporting Files */,
+			);
+			path = "Box2d-xTests";
+			sourceTree = "<group>";
+		};
+		24132B7519C969A5009FB1D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24132B7619C969A5009FB1D3 /* Box2d-xTests-Info.plist */,
+				24132B7719C969A5009FB1D3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24132B5A19C969A5009FB1D3 /* Box2d-x */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24132B7E19C969A5009FB1D3 /* Build configuration list for PBXNativeTarget "Box2d-x" */;
+			buildPhases = (
+				24132B5719C969A5009FB1D3 /* Sources */,
+				24132B5819C969A5009FB1D3 /* Frameworks */,
+				24132B5919C969A5009FB1D3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Box2d-x";
+			productName = "Box2d-x";
+			productReference = 24132B5B19C969A5009FB1D3 /* libBox2d-x.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		24132B6A19C969A5009FB1D3 /* Box2d-xTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24132B8119C969A5009FB1D3 /* Build configuration list for PBXNativeTarget "Box2d-xTests" */;
+			buildPhases = (
+				24132B6719C969A5009FB1D3 /* Sources */,
+				24132B6819C969A5009FB1D3 /* Frameworks */,
+				24132B6919C969A5009FB1D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24132B7219C969A5009FB1D3 /* PBXTargetDependency */,
+			);
+			name = "Box2d-xTests";
+			productName = "Box2d-xTests";
+			productReference = 24132B6B19C969A5009FB1D3 /* Box2d-xTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24132B5319C969A5009FB1D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = DehengXu;
+			};
+			buildConfigurationList = 24132B5619C969A5009FB1D3 /* Build configuration list for PBXProject "Box2d-x" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 24132B5219C969A5009FB1D3;
+			productRefGroup = 24132B5C19C969A5009FB1D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24132B5A19C969A5009FB1D3 /* Box2d-x */,
+				24132B6A19C969A5009FB1D3 /* Box2d-xTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24132B6919C969A5009FB1D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24132B7919C969A5009FB1D3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24132B5719C969A5009FB1D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24132B6619C969A5009FB1D3 /* Box2d_x.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24132B6719C969A5009FB1D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24132B7B19C969A5009FB1D3 /* Box2d_xTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24132B7219C969A5009FB1D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24132B5A19C969A5009FB1D3 /* Box2d-x */;
+			targetProxy = 24132B7119C969A5009FB1D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24132B7719C969A5009FB1D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24132B7819C969A5009FB1D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24132B7C19C969A5009FB1D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		24132B7D19C969A5009FB1D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24132B7F19C969A5009FB1D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Box2d_x.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Box2d-x/Box2d-x-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		24132B8019C969A5009FB1D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Box2d_x.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Box2d-x/Box2d-x-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		24132B8219C969A5009FB1D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Box2d-x/Box2d-x-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Box2d-xTests/Box2d-xTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		24132B8319C969A5009FB1D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Box2d-x/Box2d-x-Prefix.pch";
+				INFOPLIST_FILE = "Box2d-xTests/Box2d-xTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24132B5619C969A5009FB1D3 /* Build configuration list for PBXProject "Box2d-x" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24132B7C19C969A5009FB1D3 /* Debug */,
+				24132B7D19C969A5009FB1D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24132B7E19C969A5009FB1D3 /* Build configuration list for PBXNativeTarget "Box2d-x" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24132B7F19C969A5009FB1D3 /* Debug */,
+				24132B8019C969A5009FB1D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		24132B8119C969A5009FB1D3 /* Build configuration list for PBXNativeTarget "Box2d-xTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24132B8219C969A5009FB1D3 /* Debug */,
+				24132B8319C969A5009FB1D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24132B5319C969A5009FB1D3 /* Project object */;
+}
