@@ -3,6 +3,7 @@ tagname=$2
 
 if [ $# < 2 ]
 then
+echo "参数太少"
 exit 0
 fi
 
