@@ -3,6 +3,9 @@
 remote=$1
 tagname=$2
 
+echo "Usage:"
+echo "./pubtag.sh remote tagname"
+
 if [ -z $remote ]
 then
   echo "Please input remote"
